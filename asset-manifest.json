@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/kevduc/react-tutorial/static/css/main.cdb290a7.chunk.css",
+    "main.js": "/kevduc/react-tutorial/static/js/main.c7584578.chunk.js",
+    "main.js.map": "/kevduc/react-tutorial/static/js/main.c7584578.chunk.js.map",
+    "runtime-main.js": "/kevduc/react-tutorial/static/js/runtime-main.efe7dc6a.js",
+    "runtime-main.js.map": "/kevduc/react-tutorial/static/js/runtime-main.efe7dc6a.js.map",
+    "static/css/2.8672bdb7.chunk.css": "/kevduc/react-tutorial/static/css/2.8672bdb7.chunk.css",
+    "static/js/2.f3f0caf9.chunk.js": "/kevduc/react-tutorial/static/js/2.f3f0caf9.chunk.js",
+    "static/js/2.f3f0caf9.chunk.js.map": "/kevduc/react-tutorial/static/js/2.f3f0caf9.chunk.js.map",
+    "index.html": "/kevduc/react-tutorial/index.html",
+    "static/css/2.8672bdb7.chunk.css.map": "/kevduc/react-tutorial/static/css/2.8672bdb7.chunk.css.map",
+    "static/css/main.cdb290a7.chunk.css.map": "/kevduc/react-tutorial/static/css/main.cdb290a7.chunk.css.map",
+    "static/js/2.f3f0caf9.chunk.js.LICENSE.txt": "/kevduc/react-tutorial/static/js/2.f3f0caf9.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.efe7dc6a.js",
+    "static/css/2.8672bdb7.chunk.css",
+    "static/js/2.f3f0caf9.chunk.js",
+    "static/css/main.cdb290a7.chunk.css",
+    "static/js/main.c7584578.chunk.js"
+  ]
+}
