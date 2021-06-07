@@ -1,6 +1,6 @@
-# React Tutorial - Counter
+# React Tutorial - Counters
 
-👨‍🏫 Created as part of an exercise in [Mosh](https://codewithmosh.com/)'s Tutorial video: [React JS - React Tutorial for Beginners](https://youtu.be/Ke90Tje7VS0).  
+👨‍🏫 Counters using React, created as part of an exercise in [Mosh](https://codewithmosh.com/)'s Tutorial video: [React JS - React Tutorial for Beginners](https://youtu.be/Ke90Tje7VS0).  
 👉 Try it here: [kevduc.github.io/react-tutorial](http://kevduc.github.io/react-tutorial)
 
 ## Goal of this project
