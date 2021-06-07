@@ -1,7 +1,7 @@
 {
   "name": "react-tutorial",
-  "version": "0.1.0",
-  "private": true,
+  "version": "1.0.0",
+  "private": false,
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
@@ -13,14 +13,16 @@
     "bootstrap": "^4.4.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "react-scripts": "3.4.1",
+    "react-scripts": "^4.0.3",
     "typescript": "^3.7.5"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -36,5 +38,27 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "devDependencies": {
+    "gh-pages": "^3.2.0"
+  },
+  "description": "Created as part of an exercise in [Mosh](https://codewithmosh.com/)'s Tutorial video: [React JS - React Tutorial for Beginners](https://youtu.be/Ke90Tje7VS0).",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kevduc/react-tutorial.git"
+  },
+  "keywords": [
+    "react",
+    "tutorial",
+    "mosh",
+    "components",
+    "state",
+    "counter"
+  ],
+  "author": "kevduc",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kevduc/react-tutorial/issues"
+  },
+  "homepage": "https://github.com/kevduc/react-tutorial"
 }

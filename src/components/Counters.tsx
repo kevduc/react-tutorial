@@ -1,18 +1,18 @@
-import React, { Component } from "react";
-import Counter from "./Counter";
+import React, { Component } from 'react'
+import Counter from './Counter'
 
 export interface CountersProps {
-  counters: any;
-  onReset: any;
-  onDelete: any;
-  onChange: any;
+  counters: any
+  onReset: any
+  onDelete: any
+  onChange: any
 }
 
 export interface CountersState {}
 
 class Counters extends Component<CountersProps, CountersState> {
   render() {
-    const { onReset, onDelete, onChange } = this.props;
+    const { onReset, onDelete, onChange } = this.props
 
     return (
       <React.Fragment>
@@ -30,8 +30,8 @@ class Counters extends Component<CountersProps, CountersState> {
           />
         ))}
       </React.Fragment>
-    );
+    )
   }
 }
 
-export default Counters;
+export default Counters

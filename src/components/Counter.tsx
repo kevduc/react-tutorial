@@ -1,13 +1,13 @@
-import React, { Component } from "react";
+import React, { Component } from 'react'
 
 export interface CounterProps {
-  value: number;
-  onDelete: any;
-  onChange: any;
+  value: number
+  onDelete: any
+  onChange: any
 }
 
 export interface CounterState {
-  value: number;
+  value: number
 }
 
 class Counter extends Component<CounterProps, CounterState> {
@@ -32,17 +32,17 @@ class Counter extends Component<CounterProps, CounterState> {
           </button>
         </div>
       </div>
-    );
+    )
   }
 
   private getBadgeVariant() {
-    return this.props.value === 0 ? "badge-warning" : "badge-primary ml-3 mr-3";
+    return this.props.value === 0 ? 'badge-warning' : 'badge-primary ml-3 mr-3'
   }
 
   private formatCount() {
-    const count = this.props.value;
-    return count === 0 ? "Zero" : count;
+    const count = this.props.value
+    return count === 0 ? 'Zero' : count
   }
 }
 
-export default Counter;
+export default Counter

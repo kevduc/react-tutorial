@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react'
 
 const NavBar = (props: any) => {
   return (
@@ -8,7 +8,7 @@ const NavBar = (props: any) => {
         <span className={`badge badge-pill badge-secondary ml-2`}>{props.numItems}</span>
       </a>
     </nav>
-  );
-};
+  )
+}
 
-export default NavBar;
+export default NavBar
