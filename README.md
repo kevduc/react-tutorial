@@ -8,7 +8,7 @@
 
 ## 🎯 Goal of this project
 
-👨‍🎓 Learn React, including:
+### 👨‍🎓 Learn React, including:
 
 - Understand the basics of how React works (virtual DOM, rendering, etc.)
 - Setup a React project
@@ -20,5 +20,5 @@
 - Lifting the state up
 - Lifecycle Hooks
 
-✨ **Bonus** ✨  
+### ✨ **Bonus** ✨  
 Practice Bootstrap to style the App
